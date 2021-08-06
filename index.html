@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang ="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="view point" content="width=device-width,initial-scale=1.0">
+    <title>
+        ３分de1日勉強計画.com
+    </title>
+    <style>
+        
+        html
+        {
+            font-size: 62.5%;
+        }
+        ::before, ::after
+        {
+            box-sizing:border-box;
+        }
+        body {
+            background: #151515 url('f_26_topimg')no-repeat fixed left bottom;
+            background-size: cover;
+            text-align: center;
+            color: #fff;
+            font-size: 1.4rem;
+            font-family: "Hiragino Kaku Gothic ProN",Merio,sans-serif;
+        }
+    .header
+    {
+        padding :170px 30px 80px;
+    }
+    .site-title-sub
+    {
+        margin: 0 0 30px;
+        letter-spacing: 1px;
+        font-size: 2.2rem;
+    }
+    .site-title-sub::before,
+    .site-title-sub::after
+    {
+        content:'';
+        display : inline-block;
+        width: 140px;
+        height : 2px;
+        margin: 0 30px;
+        background-color: #fff;
+        vertical-align:middle;
+    }
+        .button
+        {
+            display: inline-block;
+            width: 200px;
+            padding:20px;
+            border-radius:4px;
+            background-color:#f1b400;
+            color:#fff;
+            text-decoration:none;
+            letter-spacing:1px;
+            font-size:1.2rem;
+        }
+            .button:hover
+            {
+                opacity:0.9;
+            }
+           .button-showy
+            {
+                background-color: #afa58d;
+            }
+        .about
+        {
+            padding :80px;
+            background-color:#fff;
+            color:#333;
+        }
+        .heading
+        {
+            position: relative;
+            margin:5px 0 10px;
+            padding-bottom:5px;
+            letter-spacing:2px;
+            font-size: 2rem;
+        }
+        .form-group
+        {
+            font-family: "Hiragino Kaku Gothic ProN",Merio,sans-serif;
+        }
+        .contact {
+            background: url('https://p4.wallpaperbetter.com/wallpaper/777/422/528/night-sky-wallpaper-preview.jpg')no-repeat fixed left bottom;
+            background-size: cover;
+            padding: 80px 30px;
+            color: #fff;
+        }
+        .heading1
+        {
+            position:relative;
+            display:inline-block;
+            margin:5x 0 15px;
+            padding-bottom: 15px;
+            letter-spacing:2px;
+            font-size:2.5rem;
+        }
+            .heading1::before,
+            .heading1::after
+            {
+                content :'';
+                position:absolute;
+                right:0;
+                bottom:0;
+                left:0;
+                border-bottom:1px solid #999;
+
+            }
+            .heading1::before
+            {
+                bottom:5px;
+            }
+        .text
+        {
+            margin: 45px 0;
+            life-height:2.5;
+        }
+        .form-control
+        {
+            font-size: 1.3rem;
+            position: relative;
+        }
+        .happy
+        {
+            background-color:rgb(20, 19, 19);
+            color:rgb(223, 184, 57);
+        }
+        .next
+        {
+            position:relative;
+            margin: 10px 0;
+        }
+        </style>
+</head>
+<body>
+    <header class = "header">
+        <p class="site-title-sub">Welcome to 1Day Study Plan.com</p>
+        <h1 class="site-title">さぁ　勉強の予定を立てよう</h1>
+    <div class="buttons">
+        <a class="button" href="#about">始める</a>
+        <a class="button button-showy" href="#contact">使い方</a>
+    </div>
+    </header>
+
+    <section class="contact" id="contact">
+        <h3 class="heading1">このサイトについて</h3>
+        <p =class"text">
+            初めまして。サイト管理人です😆</br>
+            このサイトは受験生の皆様が簡単に1日の勉強をスケジュールできるように作りました。
+        </p>
+        <p =class"text">
+            <strong>使い方はたったの３ステップ！</strong>
+        </p>
+        <p =class"text">
+            ①　今日の勉強予定表で<strong>科目を選択</strong>
+        </p>
+        <p =class"text">
+            ②　本日の重要事項！に<strong>課題or授業をメモ</strong></br>
+            ※メモ欄右下を引っ張ると、メモ欄が拡大されます
+        </p>
+        <p =class"text">
+            ③　最後に<strong>コピーorスクリーンショット</strong>✌️
+        </p>
+    </section>
+
+
+
+    <section class="about" id="about">
+        <h3 class="heading">今日の勉強予定表</h3>
+
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="select"> 07:00~08:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+                </select></br>
+                <label for="select"> 08:00~09:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+                </select></br>
+                <label for="select"> 09:00~10:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+                </select></br>
+
+                <label for="select"> 10:00~11:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+
+                </select></br>
+                <label for="select"> 11:00~12:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+
+                </select></br>
+                <label for="select"> 12:00~13:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+
+                </select></br>
+                <label for="select"> 13:00~14:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+
+                </select></br>
+                <label for="select"> 14:00~15:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+
+                </select></br>
+                <label for="select"> 15:00~16:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+
+                </select></br>
+                <label for="select"> 16:00~17:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+
+                </select></br>
+                <label for="select"> 17:00~18:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+
+                </select></br>
+                <label for="select"> 18:00~19:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+
+                </select></br>
+                <label for="select"> 19:00~20:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+
+                </select></br>
+                <label for="select"> 20:00~21:00</label>
+                <select class="form-control" name="select" id="select">
+                    <option>自由時間</option>
+                    <option>英語</option>
+                    <option>数学</option>
+                    <option>国語</option>
+                    <option>理科</option>
+                    <option>社会</option>
+                    <option>化学</option>
+                    <option>物理</option>
+                    <option>生物</option>
+                    <option>地理</option>
+                    <option>日本史</option>
+                    <option>世界史</option>
+                    <option>現代社会</option>
+                    <option>その他科目</option>
+                    <option>授業</option>
+                    <option>部活</option>
+
+                </select> 
+            </div>
+            <div class="form-group">
+                <label for="message">本日の重要事項！</label>
+                <textarea class="form-control" name="message" id="message" rows="5"></textarea>
+            </div>
+        </form>
+
+    </section>
+    <section class="happy">
+        <p class="next">
+        　　　お疲れ様！明日も頑張ろう！！
+        </p>
+        </header>
+    </section>
+</body>
+
+</html>
